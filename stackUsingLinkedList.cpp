@@ -15,14 +15,13 @@ public:
 };
 
 // stack class
-class stack
+class Stack
 {
 private:
         Node *top;
 
-
 public:
-    stack()
+    Stack()
     {
         top = NULL;
     }
@@ -48,7 +47,6 @@ public:
         top = top->next;
         cout << "Popped value: " << top->data << endl;
     }
-
 
     void peek()
         {
@@ -76,7 +74,7 @@ public:
 
 int main()
 {
-    stack stack;
+    Stack stack;
 
     int choice = 0;
     int value;
