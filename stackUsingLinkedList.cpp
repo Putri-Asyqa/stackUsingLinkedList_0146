@@ -46,3 +46,5 @@ public:
 
         Node *temp = top;
         top = top->next;
+        cout << "Popped value: " << top->data << endl;
+    }
